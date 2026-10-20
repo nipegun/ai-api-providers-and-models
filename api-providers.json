@@ -1,0 +1,260 @@
+{
+  "anthropic": {
+    "name": "Anthropic",
+    "url": "https://api.anthropic.com/v1/messages",
+    "format": "anthropic",
+    "type": "cloud"
+  },
+  "deepseek": {
+    "name": "DeepSeek",
+    "url": "https://api.deepseek.com/v1/chat/completions",
+    "format": "openai",
+    "type": "cloud"
+  },
+  "gemini": {
+    "name": "Gemini",
+    "url": "https://generativelanguage.googleapis.com",
+    "format": "gemini",
+    "type": "cloud"
+  },
+  "kimi": {
+    "name": "Kimi",
+    "url": "https://api.moonshot.ai/v1/chat/completions",
+    "format": "openai",
+    "tool_choice_mode": "auto",
+    "type": "cloud"
+  },
+  "mimo": {
+    "name": "Xiaomi MiMo",
+    "url": "https://api.xiaomimimo.com/v1/chat/completions",
+    "format": "openai",
+    "max_tokens_field": "max_completion_tokens",
+    "tool_choice_mode": "auto",
+    "type": "cloud"
+  },
+  "minimax": {
+    "name": "MiniMax",
+    "url": "https://api.minimax.io/v1/chat/completions",
+    "format": "openai",
+    "type": "cloud"
+  },
+  "llamacpp": {
+    "name": "llama.cpp",
+    "url": "http://localhost:9931/v1/chat/completions",
+    "format": "llamacpp",
+    "tool_choice_mode": "auto",
+    "type": "local"
+  },
+  "ollama": {
+    "name": "Ollama",
+    "url": "http://localhost:11434/v1/chat/completions",
+    "format": "openai",
+    "type": "local"
+  },
+  "openai": {
+    "name": "OpenAI",
+    "url": "https://api.openai.com/v1/chat/completions",
+    "format": "openai",
+    "url_responses": "https://api.openai.com/v1/responses",
+    "type": "cloud"
+  },
+  "openrouter": {
+    "name": "OpenRouter",
+    "url": "https://openrouter.ai/api/v1/chat/completions",
+    "format": "openai",
+    "tool_choice_mode": "auto",
+    "type": "cloud"
+  },
+  "qwen": {
+    "name": "Qwen",
+    "url": "https://dashscope-intl.aliyuncs.com/compatible-mode/v1/chat/completions",
+    "format": "openai",
+    "url_responses": "https://dashscope-intl.aliyuncs.com/compatible-mode/v1/responses",
+    "tool_choice_mode": "auto",
+    "type": "cloud"
+  },
+  "vllm": {
+    "name": "vLLM",
+    "url": "http://localhost:8000/v1/chat/completions",
+    "format": "openai",
+    "tool_choice_mode": "auto",
+    "type": "local"
+  },
+  "zai": {
+    "name": "Z.ai",
+    "url": "https://api.z.ai/api/paas/v4/chat/completions",
+    "format": "openai",
+    "tool_choice_mode": "auto",
+    "type": "cloud"
+  },
+  "xai": {
+    "name": "xAI",
+    "url": "https://api.x.ai/v1/chat/completions",
+    "format": "openai",
+    "url_responses": "https://api.x.ai/v1/responses",
+    "type": "cloud"
+  },
+  "mistral": {
+    "name": "Mistral AI",
+    "url": "https://api.mistral.ai/v1/chat/completions",
+    "format": "openai",
+    "max_tokens_field": "max_tokens",
+    "tool_choice_mode": "any",
+    "type": "cloud"
+  },
+  "groq": {
+    "name": "Groq",
+    "url": "https://api.groq.com/openai/v1/chat/completions",
+    "format": "openai",
+    "type": "cloud"
+  },
+  "cerebras": {
+    "name": "Cerebras",
+    "url": "https://api.cerebras.ai/v1/chat/completions",
+    "format": "openai",
+    "type": "cloud"
+  },
+  "inception": {
+    "name": "Inception Labs",
+    "url": "https://api.inceptionlabs.ai/v1/chat/completions",
+    "format": "openai",
+    "max_tokens_field": "max_completion_tokens",
+    "type": "cloud"
+  },
+  "together": {
+    "name": "Together AI",
+    "url": "https://api.together.ai/v1/chat/completions",
+    "format": "openai",
+    "max_tokens_field": "max_tokens",
+    "type": "cloud"
+  },
+  "fireworks": {
+    "name": "Fireworks AI",
+    "url": "https://api.fireworks.ai/inference/v1/chat/completions",
+    "format": "openai",
+    "max_tokens_field": "max_tokens",
+    "type": "cloud"
+  },
+  "deepinfra": {
+    "name": "DeepInfra",
+    "url": "https://api.deepinfra.com/v1/openai/chat/completions",
+    "format": "openai",
+    "max_tokens_field": "max_tokens",
+    "tool_choice_mode": "auto",
+    "type": "cloud"
+  },
+  "perplexity": {
+    "name": "Perplexity",
+    "url": "https://api.perplexity.ai/chat/completions",
+    "format": "openai",
+    "type": "cloud"
+  },
+  "cohere": {
+    "name": "Cohere",
+    "url": "https://api.cohere.ai/v2/chat",
+    "format": "cohere",
+    "max_tokens_field": "max_tokens",
+    "tool_choice_mode": "omit",
+    "type": "cloud"
+  },
+  "ai21": {
+    "name": "AI21 Labs",
+    "url": "https://api.ai21.com/studio/v1/chat/completions",
+    "format": "openai",
+    "max_tokens_field": "max_tokens",
+    "tool_choice_mode": "omit",
+    "type": "cloud"
+  },
+  "huggingface": {
+    "name": "Hugging Face Inference Providers",
+    "url": "https://router.huggingface.co/v1/chat/completions",
+    "format": "openai",
+    "max_tokens_field": "max_tokens",
+    "tool_choice_mode": "auto",
+    "type": "cloud"
+  },
+  "vercel": {
+    "name": "Vercel AI Gateway",
+    "url": "https://ai-gateway.vercel.sh/v1/chat/completions",
+    "format": "openai",
+    "max_tokens_field": "max_tokens",
+    "tool_choice_mode": "auto",
+    "reasoning_format": "nested",
+    "type": "cloud"
+  },
+  "cloudflare": {
+    "name": "Cloudflare Workers AI",
+    "url": "https://api.cloudflare.com/client/v4/accounts/{account_id}/ai/v1/chat/completions",
+    "format": "openai",
+    "credential_format": "account_id:api_token",
+    "type": "cloud"
+  },
+  "freetoken": {
+    "name": "FreeToken",
+    "url": "http://localhost:1919/v1/chat/completions",
+    "format": "openai",
+    "max_tokens_field": "max_tokens",
+    "tool_choice_mode": "auto",
+    "type": "local"
+  },
+  "strata": {
+    "name": "Strata",
+    "url": "http://localhost:8080/v1/chat/completions",
+    "format": "openai",
+    "max_tokens_field": "max_tokens",
+    "tool_choice_mode": "auto",
+    "type": "local"
+  },
+  "colibri": {
+    "name": "Colibri",
+    "url": "http://localhost:8000/v1/chat/completions",
+    "format": "openai",
+    "max_tokens_field": "max_tokens",
+    "tool_choice_mode": "auto",
+    "type": "local"
+  },
+  "llamacpp-lan": {
+    "name": "llama.cpp (LAN)",
+    "url": "http://llamacpp.ospal.lan:9931/v1/chat/completions",
+    "format": "llamacpp",
+    "tool_choice_mode": "auto",
+    "type": "lan"
+  },
+  "ollama-lan": {
+    "name": "Ollama (LAN)",
+    "url": "http://ollama.ospal.lan:11434/v1/chat/completions",
+    "format": "openai",
+    "type": "lan"
+  },
+  "vllm-lan": {
+    "name": "vLLM (LAN)",
+    "url": "http://vllm.ospal.lan:8000/v1/chat/completions",
+    "format": "openai",
+    "tool_choice_mode": "auto",
+    "type": "lan"
+  },
+  "freetoken-lan": {
+    "name": "FreeToken (LAN)",
+    "url": "http://freetoken.ospal.lan:1919/v1/chat/completions",
+    "format": "openai",
+    "max_tokens_field": "max_tokens",
+    "tool_choice_mode": "auto",
+    "type": "lan"
+  },
+  "strata-lan": {
+    "name": "Strata (LAN)",
+    "url": "http://strata.ospal.lan:8080/v1/chat/completions",
+    "format": "openai",
+    "max_tokens_field": "max_tokens",
+    "tool_choice_mode": "auto",
+    "type": "lan"
+  },
+  "colibri-lan": {
+    "name": "Colibri (LAN)",
+    "url": "http://colibri.ospal.lan:8000/v1/chat/completions",
+    "format": "openai",
+    "max_tokens_field": "max_tokens",
+    "tool_choice_mode": "auto",
+    "type": "lan"
+  }
+}
